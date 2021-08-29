@@ -29,7 +29,7 @@ RUN sudo chown -R coder:coder /home/coder/.local
 # Install Java JDK
 RUN sudo apt-get update && sudo apt-get sudo upgrade -y && sudo apt-get install -y \
   python \
-  default-jdk
+  default-jre
 
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
