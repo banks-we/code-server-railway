@@ -27,7 +27,7 @@ RUN sudo chown -R coder:coder /home/coder/.local
 # RUN code-server --install-extension esbenp.prettier-vscode
 
 # Install Java JDK
-RUN sudo apt install default-jre
+RUN sudo ext install redhat.java 
 
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
