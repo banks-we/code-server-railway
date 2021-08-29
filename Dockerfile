@@ -27,9 +27,7 @@ RUN sudo chown -R coder:coder /home/coder/.local
 # RUN code-server --install-extension esbenp.prettier-vscode
 
 # Install Java JDK
-RUN sudo apt-get update && sudo apt-get sudo upgrade -y && apt-get install -y \
-  python \
-  default-jre
+RUN sudo apt-get update && sudo apt-get install default-jre
 
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
